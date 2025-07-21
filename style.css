@@ -1,0 +1,137 @@
+*{
+    font-family: Tahoma;
+}
+
+/* Header */
+.header{
+    display: flex;
+    background-color: #ff5500;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    height: 100px;
+}
+
+.header-title{
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+.header-title p {
+    color: black;
+    font-size: 10px;
+}
+
+/* NAV BAR */
+.nav{
+    background-color: black;
+    padding: 13px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.nav-item{
+    display: inline-block;
+    margin-left: 30px;
+    height: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover{
+    color: #ff5500;
+}
+
+/* Content Section */
+.konten {
+    width: 75%;
+    margin: none;
+}
+.konten h1 {
+    color: #ff5500;
+    font-size: 35px;
+}
+.konten h2 {
+    color: #fd8b52;
+}
+
+/* Table Contents */
+table {
+    border-spacing: 5px;
+}
+.table-head {
+    background-color: #ff5500;
+    /* border-radius: 10px; */
+}
+.table-head th {
+    padding: 8px;
+    text-align: center;
+}
+.table-content {
+    text-align: center;
+    background-color: #f0edeb;
+}
+.table-content td {
+    padding: 15px;
+}
+td>img {
+    width: 120px;
+    /* border-spacing: ; */
+}
+td>a {
+    text-decoration: none;
+    color: green;
+}
+td>a:hover {
+    color: #ff5500;
+}
+
+/* Contact Styling Section */
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    color: #413e3e;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.form-group input {
+    height: 25px;
+    width: 70%;
+}
+.form-group textarea {
+    height: 200px;
+    width: 70%;
+}
+.btn {
+    border-radius: 7px;
+    border: opx;
+    height: 45px;
+    width: 100px;
+    background-color: #ff5500;
+    color: black;
+    cursor: pointer;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+.btn:hover {
+    background-color: #f0edeb;
+}
